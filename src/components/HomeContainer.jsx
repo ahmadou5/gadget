@@ -10,8 +10,8 @@ const HomeContainer = () => {
       id="home"
     >
       <div className="py-2 flex-1 flex flex-col items-start justify-center gap-6">
-        <div className="flex items-center gap-2 justify-center bg-orange-100 px-4 py-1 rounded-full">
-          <p className="text-base text-orange-500 font-semibold">
+        <div className="flex items-center gap-2 justify-center bg-green-100 px-4 py-1 rounded-full">
+          <p className="text-base text-green-500 font-semibold">
             Bike Delivery
           </p>
           <div className="w-8 h-8 bg-white rounded-full overflow-hidden drop-shadow-xl">
@@ -23,47 +23,45 @@ const HomeContainer = () => {
           </div>
         </div>
 
-        <p className="text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor">
+        <p className="text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-white">
           The Fastest Delivery in
-          <span className="text-orange-600 text-[3rem] lg:text-[5rem]">
+          <span className="text-green-600 text-[3rem] lg:text-[5rem]">
             Your City
           </span>
         </p>
 
-        <p className="text-base text-textColor text-center md:text-left md:w-[80%]">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima velit
-          eaque fugit distinctio est nam voluptatum architecto, porro iusto
-          deserunt recusandae ipsa minus eos sunt, dolores illo repellat facere
-          suscipit!
+        <p className="text-base text-white text-center md:text-left md:w-[80%]">
+          Hey Welcome to Phone Shop, Buy Your Quality Mobile Phone from your home with just some simple Clicks in a cheaper Prize and Get it Deliver to your Door. We Sell all Varietis of IPhones, Android Smart Phones Like Samsung, Redmi, Huaweii, Oppo, Vivo, Nokia, Infinix, Techno and also Dubai and UK used Smart Phones and Accessories.
         </p>
 
         <button
           type="button"
-          className="bg-gradient-to-br from-orange-400 to-orange-500 w-full md:w-auto px-4 py-2  rounded-lg hover:shadow-lg transition-all ease-in-out duration-100"
+          className="bg-gradient-to-br from-green-400 to-green-500 w-full md:w-auto px-4 py-2  rounded-lg hover:shadow-lg transition-all ease-in-out duration-100"
         >
           Order Now
         </button>
       </div>
       <div className="py-2 flex-1 flex items-center relative">
         <img
-          src={HeroBg}
+          src=
+          ""
           className=" ml-auto h-420 w-full lg:w-auto lg:h-650"
           alt="hero-bg"
         />
 
-        <div className="w-full h-full absolute top-0 left-0 flex items-center justify-center lg:px-32  py-4 gap-4 flex-wrap">
+        <div className="w-full h-full absolute top-0 left-0 flex items-center mt-8 justify-center lg:px-32  py-4 gap-4 flex-wrap">
           {heroData &&
             heroData.map((n) => (
               <div
                 key={n.id}
-                className="  lg:w-190  p-4 bg-cardOverlay backdrop-blur-md rounded-3xl flex flex-col items-center justify-center drop-shadow-lg"
+                className="  lg:w-190  p-4 bg-cardOverlay backdrop-blur-2xl rounded-3xl flex flex-col items-center justify-center drop-shadow-lg"
               >
                 <img
                   src={n.imageSrc}
                   className="w-20 lg:w-40 -mt-10 lg:-mt-20 "
                   alt="I1"
                 />
-                <p className="text-base lg:text-xl font-semibold text-textColor mt-2 lg:mt-4">
+                <p className="text-base lg:text-xl font-semibold text-black mt-2 lg:mt-4">
                   {n.name}
                 </p>
 

@@ -1,35 +1,39 @@
-import I1 from "../img/i1.png";
-import F1 from "../img/f1.png";
-import C3 from "../img/c3.png";
-import Fi1 from "../img/fi1.png";
+import I1 from "../img/11s1-r.png";
+import F1 from "../img/s22-r.png";
+import C3 from "../img/a73-r.png";
+import Fi1 from "../img/11-r.png";
 
 export const heroData = [
   {
     id: 1,
-    name: "Icecream",
-    decp: "Chocolate & vanilla",
-    price: "5.25",
+    name: "Redmi Note 11S",
+    decp: "Gold",
+    price: "600",
+    mem: "1TB",
     imageSrc: I1,
   },
   {
     id: 2,
-    name: "Strawberries",
-    decp: "Fresh Strawberries",
-    price: "10.25",
+    name: "Samsung S22",
+    decp: "red",
+    price: "110",
+    mem: "64GB 4GB",
     imageSrc: F1,
   },
   {
     id: 3,
-    name: "Chicken Kebab",
-    decp: "Mixed Kebab Plate",
-    price: "8.25",
+    name: "Samsung A73",
+    decp: "White",
+    price: "225",
+    mem: "256GB 8GB",
     imageSrc: C3,
   },
   {
     id: 4,
-    name: "Fish Kebab",
-    decp: "Mixed Fish Kebab",
-    price: "5.25",
+    name: "Redmi Note 11",
+    decp: "White",
+    price: "120",
+    mem: "256GB 8GB",
     imageSrc: Fi1,
   },
 ];
@@ -37,38 +41,49 @@ export const heroData = [
 export const categories = [
   {
     id: 1,
-    name: "Chicken",
-    urlParamName: "chicken",
+    name: "IPhones",
+    urlParamName: "iphone",
   },
   {
     id: 2,
-    name: "Curry",
-    urlParamName: "curry",
+    name: "Samsung",
+    urlParamName: "samsung",
   },
   {
     id: 3,
-    name: "Rice",
-    urlParamName: "rice",
+    name: "Redmi",
+    urlParamName: "redmi",
   },
   {
     id: 4,
-    name: "Fish",
-    urlParamName: "fish",
+    name: "Huaweii",
+    urlParamName: "huaweii",
   },
   {
     id: 5,
-    name: "Fruits",
-    urlParamName: "fruits",
+    name: "Infinix",
+    urlParamName: "infinix",
   },
   {
     id: 6,
-    name: "Icecreams",
-    urlParamName: "icecreams",
+    name: "Techno",
+    urlParamName: "techno",
   },
 
   {
     id: 7,
-    name: "Soft Drinks",
-    urlParamName: "drinks",
+    name: "Nokia",
+    urlParamName: "nokia",
   },
+  {
+    id: 8,
+    name: "Dubai Used",
+    urlParamName: "dubai",
+  },
+  {
+    id: 9,
+    name: "Accessories",
+    urlParamName: "accessories",
+  },
+
 ];

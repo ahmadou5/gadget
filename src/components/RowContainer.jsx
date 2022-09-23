@@ -64,14 +64,14 @@ const RowContainer = ({ flag, data, scrollValue }) => {
             </div>
 
             <div className="w-full flex flex-col items-end justify-end -mt-8">
-              <p className="text-textColor font-semibold text-base md:text-lg">
+              <p className="text-black font-semibold text-base md:text-lg">
                 {item?.title}
               </p>
-              <p className="mt-1 text-sm text-gray-500">
-                {item?.calories} Calories
+              <p className="mt-1 text-sm text-gray-300">
+                {item?.calories} GB
               </p>
               <div className="flex items-center gap-8">
-                <p className="text-lg text-headingColor font-semibold">
+                <p className="text-lg text-black font-semibold">
                   <span className="text-sm text-red-500">$</span> {item?.price}
                 </p>
               </div>
@@ -81,7 +81,7 @@ const RowContainer = ({ flag, data, scrollValue }) => {
       ) : (
         <div className="w-full flex flex-col items-center justify-center">
           <img src={NotFound} className="h-340" />
-          <p className="text-xl text-headingColor font-semibold my-2">
+          <p className="text-xl text-black font-semibold my-2">
             Items Not Available
           </p>
         </div>

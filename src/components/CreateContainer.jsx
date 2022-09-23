@@ -119,7 +119,7 @@ const CreateContainer = () => {
     } catch (error) {
       console.log(error);
       setFields(true);
-      setMsg("Error while uploading : Try AGain 🙇");
+      setMsg("Error while uploading : Try Again 🙇");
       setAlertStatus("danger");
       setTimeout(() => {
         setFields(false);
@@ -251,7 +251,7 @@ const CreateContainer = () => {
               required
               value={calories}
               onChange={(e) => setCalories(e.target.value)}
-              placeholder="Calories"
+              placeholder="Memory Capacity"
               className="w-full h-full text-lg bg-transparent outline-none border-none placeholder:text-gray-400 text-textColor"
             />
           </div>
