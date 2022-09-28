@@ -17,7 +17,7 @@ const MainContainer = () => {
     <div className="w-full h-auto flex flex-col items-center justify-center ">
       <HomeContainer />
 
-      <section className="w-full my-6">
+      <section className="w-full my-6 md:mt-5 mt-34">
         <div className="w-full flex items-center justify-between">
           <p className="text-2xl font-semibold capitalize text-white relative before:absolute before:rounded-lg before:content before:w-32 before:h-1 before:-bottom-2 before:left-0 before:bg-gradient-to-tr from-green-400 to-green-600 transition-all ease-in-out duration-100">
             What's Hot
